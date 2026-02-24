@@ -8,6 +8,7 @@
 @import url(./sections/hero.css);
 @import url(./sections/why_us.css);
 @import url(./sections/about.css);
+@import url(./sections/company.css);
 
 /* --- COMPONENTS --- */
 @import url(../components/button.css);
