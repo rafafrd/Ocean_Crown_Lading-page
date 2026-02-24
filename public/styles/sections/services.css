@@ -1,7 +1,8 @@
 .services {
-  padding: 50px 15px 30px;
+  padding: 50px 15% 30px;
   background-color: #234f90;
   position: relative;
+  overflow: hidden;
 }
 
 .services__container {
