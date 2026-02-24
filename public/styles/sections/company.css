@@ -18,6 +18,13 @@
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.company__main {
+  gap: 20px;
+}
+
+.company__card {
   gap: 20px;
 }
 
@@ -50,6 +57,18 @@
 .company__card-title {
   color: #234f90;
   font-weight: 700;
-  
 }
 
+.company__card-button {
+  background-color: #005eff;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 60px;
+  border: none;
+}
+
+.company__card-button:hover {
+  background-color: #234f90;
+  cursor: pointer;
+}
