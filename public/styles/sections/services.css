@@ -37,3 +37,20 @@
   line-height: 1.2;
 }
 
+.services__card {
+  width: 100%;
+  height: 100%;
+  border: 4px solid red;
+  padding: 2rem 15px 10px 15px;
+  position: relative;
+}
+
+.services__icon {
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  width: 80px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #234f90;
+}
