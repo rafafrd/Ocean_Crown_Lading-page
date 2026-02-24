@@ -1,0 +1,26 @@
+.hero {
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+  url(../../assets/assets/images/hero/company.jpg);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero__title-top,
+.hero__title-main {
+  text-transform: uppercase;
+  color: #fff;
+}
+.hero__title-top {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.hero__title-main {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+

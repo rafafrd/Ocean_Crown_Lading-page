@@ -1,0 +1,46 @@
+.hero__button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 24px;
+  border: none;
+  background-color: #fff;
+  color: #005eff;
+  cursor: pointer;
+  box-shadow: 0 3px 1px #005eff;
+  transition: all 0.3s ease;
+}
+.hero__button:hover {
+  background-color: #005eff;
+  color: #fff;
+  box-shadow: none;
+  transform: translateY(3px);
+}
+
+.feature__card-button {
+  position: absolute;
+  opacity: 0;
+  bottom: -100px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 5px #bebebe;
+  margin-top: 20px;
+  pointer-events: none;
+
+  transition: all 0.4s ease;
+}
+
+.feature__card-button .fa-solid {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color:#005eff !important;
+}
+
+.feature__card:hover .feature__card-button {
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+  bottom: 30px;
+}
