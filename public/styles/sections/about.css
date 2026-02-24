@@ -1,0 +1,10 @@
+.about {
+  padding: 50px;
+}
+
+.about__container {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+}

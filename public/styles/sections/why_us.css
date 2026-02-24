@@ -26,10 +26,10 @@
 .why__us-content::before {
   content: "";
   height: 2px;
-  width: 100%;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 60px;
+  right: 60px;
 }
 
 .why__us-item {
