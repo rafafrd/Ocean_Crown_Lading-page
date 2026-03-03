@@ -14,3 +14,6 @@
 /* --- COMPONENTS --- */
 @import url(../components/button.css);
 @import url(./sections/features.css);
+
+/* --------- Media  --------- */
+@import url(./media.css);

@@ -8,6 +8,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  height: 90vh;
 }
 
 .hero__title-top,

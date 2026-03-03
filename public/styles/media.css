@@ -1,0 +1,70 @@
+/* 0px até 657px */
+@media (max-width: 657px) {
+  .hero {
+    height: 150vh;
+  }
+
+  .features {
+    bottom: -200px;
+  }
+
+  .why__us {
+    padding-top: 225px;
+  }
+
+  .feature__list {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  .about__container {
+    grid-template: repeat(2,1fr) / 1fr;
+  }
+
+  .company__container {
+    grid-template: repeat(3,1fr) / 1fr;
+  }
+  .services__container {
+    grid-template: repeat(6,1fr) / 1fr;
+  }
+}
+/* 658px até 920px */
+@media (min-width: 658px) and (max-width: 920px) {
+  .hero {
+    height: 150vh;
+  }
+
+  .features {
+    bottom: -200px;
+  }
+
+  .why__us {
+    padding-top: 225px;
+  }
+  .feature__list {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .about,
+  .about__content {
+    padding: 25px;
+  }
+
+  .about__iamge::before {
+    bottom: 65px;
+    right: 45px;
+  }
+
+  .about__iamge::after {
+    bottom: 45px;
+    right: 75px;
+  }
+
+  .company__main {
+    grid-area: 1/1/2/3;
+  }
+  .company__container {
+    grid-template: 1/1/2/3;
+  }
+}
