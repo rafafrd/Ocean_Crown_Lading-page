@@ -1,0 +1,41 @@
+.world {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  align-items: center; 
+  gap: 2rem; 
+  padding: 2rem; /* Respiro externo */
+  font-family: sans-serif; 
+}
+
+.text-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Cria a grade 2x2 para os 4 itens */
+  gap: 3rem 1rem; 
+}
+
+.text {
+  display: flex; 
+  align-items: center; 
+  gap: 1rem; /* Espaço entre o número e o texto */
+}
+
+.title {
+  font-size: 3rem;
+  color: #1a4971; 
+  font-weight: 300; 
+  margin: 0; 
+}
+
+.subtitle {
+  font-size: 0.85rem; 
+  color: #6a859c; /* Cor azul acinzentado */
+  line-height: 1.2; /* Deixa as linhas de texto mais juntas */
+  margin: 0;
+  max-width: 80px; /* Força o texto a quebrar em duas linhas como no design original */
+}
+
+.map-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

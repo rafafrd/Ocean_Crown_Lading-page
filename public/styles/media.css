@@ -71,6 +71,23 @@
   .services__container {
     grid-template: repeat(6,1fr) / 1fr;
   }
+
+  /* Adicione junto com as outras regras do max-width: 657px */
+  .world {
+    grid-template-columns: 1fr; /* Empilha a caixa de texto e o mapa */
+    padding: 1rem; /* Reduz o espaçamento nas bordas para celulares */
+    gap: 3rem;
+  }
+
+  .text-box {
+    grid-template-columns: 1fr; /* Transforma a grade 2x2 em 1 coluna só */
+    gap: 2rem;
+    justify-items: center; /* Centraliza o conteúdo na tela */
+  }
+
+  .text {
+    justify-content: center; /* Garante que o número e o subtítulo fiquem no centro */
+  }
 }
 
 /* 658px até 920px */
@@ -121,5 +138,16 @@
   }
   .company__container {
     grid-template: 1/1/2/3;
+  }
+
+  /* Adicione junto com as outras regras do min-width: 658px and max-width: 920px */
+  .world {
+    grid-template-columns: 1fr; /* Mantém o mapa abaixo do texto */
+    gap: 3rem;
+  }
+
+  .text-box {
+    /* Herda o grid-template-columns: 1fr 1fr do desktop, apenas centralizamos */
+    justify-items: center; 
   }
 }

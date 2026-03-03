@@ -10,6 +10,7 @@
 @import url(./sections/about.css);
 @import url(./sections/company.css);
 @import url(./sections/services.css);
+@import url(./sections/world.css);
 
 /* --- COMPONENTS --- */
 @import url(../components/button.css);
