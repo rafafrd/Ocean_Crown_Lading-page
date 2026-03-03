@@ -2,11 +2,15 @@
   position: absolute;
   inset: 0; /* Shorthand para top, right bottom e left */
   z-index: 1000;
-  max-height: 180px;
+  height: 180px;
   width: 100%;
   box-shadow: 0 4px 30px rgba(0,0,0,0.3);
   backdrop-filter: blur(3px);
   padding: 30px 15%;
+}
+
+.header__icons {
+  display: none;
 }
 
 .header__top {
@@ -100,4 +104,8 @@
 
 .header__nav-link {
   color: #fff;
+}
+
+#menu {
+  display: none;
 }
