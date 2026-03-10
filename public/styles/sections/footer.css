@@ -1,0 +1,160 @@
+.footer {
+  background-color: #061023; 
+  font-family: sans-serif;
+}
+
+.footer__main {
+  padding: 4rem 10%;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr; 
+  gap: 2rem;
+}
+
+.footer__logo-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.footer__logo-box i {
+  font-size: 2.5rem;
+}
+
+.footer__logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer__logo-subtitle {
+  font-size: 0.7rem;
+}
+
+.footer__desc {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+}
+
+
+.footer__socials {
+  display: flex;
+}
+
+.footer__socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #1e293b;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.footer__socials a:hover {
+  background-color: #1e293b;
+}
+
+.footer__title {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__links li {
+  margin-bottom: 1rem;
+}
+
+.footer__links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s;
+}
+
+.footer__links a i {
+  font-size: 0.6rem; 
+}
+
+.footer__links a:hover {
+  color: #fff;
+}
+
+.footer__form {
+  display: flex;
+  height: 45px;
+}
+
+.footer__form input {
+  flex: 1;
+  border: none;
+  padding: 0 1rem;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.footer__form button {
+  background-color: #007bff; /* Azul vibrante do botão */
+  color: #fff;
+  border: none;
+  width: 55px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+}
+
+.footer__form button:hover {
+  background-color: #0056b3;
+}
+
+
+.footer__bottom {
+  background-color: #fff;
+  color: #334155;
+  padding: 1.5rem 10%;
+}
+
+.footer__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.footer__bottom-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer__bottom-links a {
+  color: #334155;
+  text-decoration: none;
+}
+
+.footer__bottom-credits .highlight {
+  color: #ce1f1f;
+  font-weight: bold;
+}

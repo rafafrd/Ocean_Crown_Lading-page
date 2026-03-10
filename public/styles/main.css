@@ -11,6 +11,7 @@
 @import url(./sections/company.css);
 @import url(./sections/services.css);
 @import url(./sections/world.css);
+@import url(./sections/footer.css);
 
 /* --- COMPONENTS --- */
 @import url(../components/button.css);
